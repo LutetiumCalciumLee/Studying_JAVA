@@ -13,8 +13,6 @@ Main Contents
 
     File input/output examples
 
-    Simple algorithm implementations (sorting, searching, etc.)
-
     Mini projects and assignments
 
 ## Technologies Used
