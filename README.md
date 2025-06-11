@@ -1,6 +1,6 @@
-# Mastering Java Programming
+# Studying Java Programming
 
-This repository is a comprehensive guide to mastering the core of Java programming. It systematically covers everything from basic syntax to Object-Oriented Programming (OOP), essential libraries, and file handling.
+This repository is a comprehensive guide to studying the core of Java programming. It systematically covers everything from basic syntax to Object-Oriented Programming (OOP), essential libraries, and file handling.
 
 ### **Core Concepts and Syntax**
 
