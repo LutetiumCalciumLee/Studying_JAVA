@@ -3,7 +3,7 @@
 
 # Chapter 3. Java Loops, Arrays, and Exception Handling
 
-***
+
 
 ### Loop Statements
 
@@ -28,7 +28,7 @@
 - **break Statement:**  
   Exits the current loop immediately, even if the condition is still true.
 
-***
+
 
 ### Arrays
 
@@ -50,7 +50,7 @@
 - **Returning Arrays from Methods:**  
   Methods can return arrays, and the receiving variable must match the return type.
 
-***
+
 
 ### Exception Handling
 
@@ -73,7 +73,7 @@
 
 # 3장. 자바 반복문, 배열, 예외 처리
 
-***
+
 
 ### 반복문
 
@@ -98,7 +98,7 @@
 - **break문:**  
   조건과 상관없이 반복문을 즉시 종료함.
 
-***
+
 
 ### 배열
 
@@ -120,7 +120,7 @@
 - **메서드 반환값:**  
   메서드에서 배열을 반환할 수 있으며, 반환 타입과 변수 타입이 일치해야 함.
 
-***
+
 
 ### 예외 처리
 
