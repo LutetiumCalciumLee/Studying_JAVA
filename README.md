@@ -3,7 +3,7 @@
 
 # Chapter 6. Java Packages, Modules, and Core Utility Classes
 
-***
+
 
 ### Packages and Modules
 
@@ -13,7 +13,7 @@
 - Packages can have hierarchical structures, and classes with the same name can exist in different packages.
 - **Modules** (introduced in Java 9) are containers that group packages and resources together. Modules are defined by a `module-info.java` file and allow applications to be split into smaller, reusable pieces. This enables custom Java runtime environments, which is especially useful for small or resource-constrained devices.
 
-***
+
 
 ### The Object Class
 
@@ -23,7 +23,7 @@
   - `hashCode()`: Returns a hash code for the object.
   - `getClass()`: Returns the runtime class of the object.
 
-***
+
 
 ### Wrapper Classes
 
@@ -31,7 +31,7 @@
 - Wrapper objects can be created from primitive values or strings, and provide utility methods for parsing and converting between types.
 - Auto-boxing and unboxing (Java 1.5+) automatically convert between primitives and their wrapper objects.
 
-***
+
 
 ### String and StringBuffer Classes
 
@@ -39,20 +39,20 @@
 - String comparison should be done with `equals()` instead of `==`.
 - `StringBuffer` is a mutable sequence of characters, allowing efficient string modifications with methods like `append()`, `insert()`, `replace()`, `delete()`, and `setLength()`.
 
-***
+
 
 ### StringTokenizer
 
 - The `StringTokenizer` class is used to split a string into tokens based on delimiter characters, useful for parsing structured data.
 
-***
+
 
 ### Math Class
 
 - The `Math` class provides static methods for mathematical operations such as `abs()`, `ceil()`, `floor()`, `sqrt()`, `pow()`, `random()`, and constants like `PI`.
 - Random numbers can be generated using `Math.random()` or the `Random` class.
 
-***
+
 
 ### Calendar Class
 
@@ -66,7 +66,7 @@
 
 # 6장. 자바 패키지, 모듈, 핵심 유틸리티 클래스
 
-***
+
 
 ### 패키지와 모듈
 
@@ -76,7 +76,7 @@
 - 패키지는 계층 구조를 가질 수 있으며, 서로 다른 패키지에 같은 이름의 클래스가 존재할 수 있음.
 - **모듈**(Java 9 도입)은 여러 패키지와 리소스를 묶는 컨테이너로, `module-info.java` 파일로 정의함. 모듈은 애플리케이션을 더 작은 단위로 분할해 재사용성을 높이고, 소형/임베디드 환경에 맞는 맞춤형 자바 런타임 구성이 가능함.
 
-***
+
 
 ### Object 클래스
 
@@ -86,7 +86,7 @@
   - `hashCode()`: 객체의 해시코드 반환
   - `getClass()`: 런타임 시 객체의 클래스 정보 반환
 
-***
+
 
 ### 래퍼(Wrapper) 클래스
 
@@ -94,7 +94,7 @@
 - 래퍼 객체는 기본값이나 문자열로 생성할 수 있고, 타입 변환 및 파싱 등 다양한 유틸리티 메서드를 제공함.
 - 오토박싱/언박싱(Java 1.5+)으로 기본형과 래퍼 객체 간 자동 변환이 지원됨.
 
-***
+
 
 ### String과 StringBuffer 클래스
 
@@ -102,20 +102,20 @@
 - 문자열 비교는 `==` 대신 `equals()`로 해야 함.
 - `StringBuffer`는 가변(mutable) 문자 시퀀스로, `append()`, `insert()`, `replace()`, `delete()`, `setLength()` 등으로 문자열을 효율적으로 수정할 수 있음.
 
-***
+
 
 ### StringTokenizer
 
 - `StringTokenizer` 클래스는 구분자(delimiter)로 문자열을 분리해 토큰 단위로 나눌 때 사용함. 구조화된 데이터 파싱에 유용함.
 
-***
+
 
 ### Math 클래스
 
 - `Math` 클래스는 `abs()`, `ceil()`, `floor()`, `sqrt()`, `pow()`, `random()` 등 수학 연산용 정적 메서드와 `PI` 같은 상수를 제공함.
 - 난수 생성은 `Math.random()` 또는 `Random` 클래스로 가능함.
 
-***
+
 
 ### Calendar 클래스
 
