@@ -3,7 +3,7 @@
 
 # Chapter 2. Java Language Basics
 
-***
+
 
 ### Structure of a Java Program
 
@@ -12,7 +12,7 @@
 - Code blocks are enclosed in curly braces `{}` and each statement ends with a semicolon `;`.
 - Comments can be single-line (`//`) or multi-line (`/* ... */`).
 
-***
+
 
 ### Identifiers and Naming Conventions
 
@@ -22,7 +22,7 @@
 - Identifiers are case-sensitive and can be of any length.
 - Good naming conventions improve readability: Class names start with uppercase, variables and methods use lowercase, constants use ALL CAPS.
 
-***
+
 
 ### Data Types
 
@@ -31,7 +31,7 @@
 - **Reference types:** Used for arrays, objects (classes), and interfaces.
 - `String` is not a primitive but is handled as an object (class).
 
-***
+
 
 ### Variables and Declarations
 
@@ -40,7 +40,7 @@
 - Variables can be declared and initialized together (e.g., `int age = 21;`).
 - Local variables exist only within the scope of their defining method or block.
 
-***
+
 
 ### Literals
 
@@ -54,21 +54,21 @@
 - Character literals use single quotes, string literals use double quotes.
 - `null` literal is used only for reference types.
 
-***
+
 
 ### Constants
 
 - Declared with the `final` keyword; value cannot change once assigned.
 - Constants use ALL CAPS by naming convention.
 
-***
+
 
 ### Type Conversion
 
 - **Automatic (widening):** Smaller types convert automatically to larger types (e.g., `int` → `long`).
 - **Explicit (narrowing):** Larger types can be cast to smaller types (e.g., `double` to `int`), but may cause data loss.
 
-***
+
 
 ### Operators
 
@@ -80,7 +80,7 @@
 - **Bitwise:** `&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`
 - **Ternary (conditional):** `condition ? expr1 : expr2`
 
-***
+
 
 ### Expressions and Statements
 
@@ -88,7 +88,7 @@
 - A **statement** performs an action and ends with a semicolon.
 - A **block** groups multiple statements inside `{}`.
 
-***
+
 
 ### Control Flow Statements
 
@@ -97,7 +97,7 @@
 - **Branching:** `break`, `continue`, `return`
 - `switch` decides execution based on values, supporting `case` and `default` labels.
 
-***
+
 
 ### User Input
 
@@ -110,7 +110,7 @@
 
 # 2장. 자바 언어 기초
 
-***
+
 
 ### 자바 프로그램의 구조
 
@@ -119,7 +119,7 @@
 - 코드 블록은 중괄호 `{}`로 묶고, 각 명령문(Statement)은 세미콜론 `;`으로 끝남.
 - 주석은 한 줄(`//`) 또는 여러 줄(`/* ... */`)로 작성 가능함.
 
-***
+
 
 ### 식별자와 네이밍 규칙
 
@@ -129,7 +129,7 @@
 - 식별자는 대소문자를 구분하고, 길이에는 제한이 없음.
 - 좋은 네이밍 관례: 클래스명은 대문자 시작, 변수/메서드는 소문자 시작, 상수는 모두 대문자로 작성함.
 
-***
+
 
 ### 데이터 타입
 
@@ -138,7 +138,7 @@
 - **참조형:** 배열, 클래스, 인터페이스 등 객체를 위한 타입임.
 - 문자열은 기본형이 아니며, `String` 클래스로 취급됨.
 
-***
+
 
 ### 변수와 선언
 
@@ -147,7 +147,7 @@
 - 변수 선언과 동시에 초기화 가능(예: `int age = 21;`).
 - 지역 변수는 선언된 메서드 또는 블록 내부에서만 존재함.
 
-***
+
 
 ### 리터럴
 
@@ -157,21 +157,21 @@
 - 문자 리터럴은 작은따옴표, 문자열 리터럴은 큰따옴표 사용함.
 - `null` 리터럴은 참조형에서만 사용 가능함.
 
-***
+
 
 ### 상수
 
 - `final` 키워드로 선언하며, 초기화 후 값 변경 불가.
 - 상수 이름은 모두 대문자(네이밍 관례).
 
-***
+
 
 ### 타입 변환
 
 - **자동(확장) 변환:** 작은 타입이 큰 타입으로 자동 변환됨(예: `int` → `long`).
 - **명시적(축소) 변환:** 큰 타입을 작은 타입으로 변환할 때는 캐스팅이 필요하며(예: `double` → `int`), 데이터 손실이 발생할 수 있음.
 
-***
+
 
 ### 연산자
 
@@ -183,7 +183,7 @@
 - **비트:** `&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`
 - **삼항(조건) 연산:** `조건 ? 값1 : 값2`
 
-***
+
 
 ### 식과 문장
 
@@ -191,7 +191,7 @@
 - **문장(Statement):** 동작을 수행하며 세미콜론으로 종료함.
 - **블록:** 여러 문장을 중괄호 `{}`로 묶음.
 
-***
+
 
 ### 흐름 제어문
 
@@ -200,7 +200,7 @@
 - **분기문:** `break`, `continue`, `return`
 - `switch` 문은 값에 따라 실행 경로를 고르고, `case`와 `default` 레이블 사용 가능함.
 
-***
+
 
 ### 사용자 입력
 
