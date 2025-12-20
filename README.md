@@ -3,7 +3,7 @@
 
 # Chapter 5. Java Inheritance, Abstract Classes, and Interfaces
 
-***
+
 
 ### Inheritance
 
@@ -12,7 +12,7 @@
 - Subclasses can override superclass methods to provide specific behavior.
 - The `super` keyword is used to access superclass members and constructors.
 
-***
+
 
 ### Method Overriding
 
@@ -20,7 +20,7 @@
 - The `@Override` annotation is used for clarity and error checking.
 - Overridden methods must have the same signature as in the superclass.
 
-***
+
 
 ### Abstract Classes and Methods
 
@@ -30,7 +30,7 @@
 - Abstract methods must be implemented by subclasses.
 - Abstract classes can have constructors and instance variables, and can provide shared code for related subclasses.
 
-***
+
 
 ### Interfaces
 
@@ -41,21 +41,21 @@
 - From Java 8, interfaces can have default and static methods (with bodies), and from Java 9, private methods.
 - All fields in interfaces are implicitly public, static, and final.
 
-***
+
 
 ### Polymorphism with Inheritance and Interfaces
 
 - Objects can be referenced by variables of their superclass or interface type, enabling flexible code and dynamic method dispatch.
 - This supports loose coupling and extensibility in software design.
 
-***
+
 
 ### Type Casting
 
 - Upcasting: Assigning a subclass object to a superclass reference (automatic and safe).
 - Downcasting: Casting a superclass reference back to a subclass (requires explicit cast and can throw exceptions if not compatible).
 
-***
+
 
 ### The `final` Keyword in Inheritance
 
@@ -69,7 +69,7 @@
 
 # 5장. 자바 상속, 추상 클래스, 인터페이스
 
-***
+
 
 ### 상속
 
@@ -78,7 +78,7 @@
 - 하위 클래스는 상위 클래스의 메서드를 오버라이딩(재정의)하여 동작을 변경할 수 있음.
 - `super` 키워드로 상위 클래스의 멤버와 생성자에 접근함.
 
-***
+
 
 ### 메서드 오버라이딩
 
@@ -86,7 +86,7 @@
 - `@Override` 애너테이션을 사용해 명확성과 오류 방지 효과를 얻음.
 - 오버라이딩 메서드는 상위 클래스와 시그니처(이름, 매개변수, 반환형)가 동일해야 함.
 
-***
+
 
 ### 추상 클래스와 추상 메서드
 
@@ -96,7 +96,7 @@
 - 추상 메서드는 반드시 하위 클래스에서 구현해야 함.
 - 추상 클래스는 생성자와 인스턴스 변수도 가질 수 있으며, 관련 하위 클래스에 공통 코드를 제공함.
 
-***
+
 
 ### 인터페이스
 
@@ -107,21 +107,21 @@
 - Java 8부터는 인터페이스에 default, static 메서드(몸체 포함), Java 9부터는 private 메서드도 정의 가능함.
 - 인터페이스의 모든 필드는 암묵적으로 public, static, final임.
 
-***
+
 
 ### 상속과 인터페이스를 활용한 다형성
 
 - 객체는 상위 클래스나 인터페이스 타입의 변수로 참조할 수 있어, 유연한 코드와 동적 메서드 호출이 가능함.
 - 이를 통해 느슨한 결합과 확장성 있는 소프트웨어 설계가 가능함.
 
-***
+
 
 ### 타입 변환
 
 - 업캐스팅: 하위 클래스 객체를 상위 클래스 참조로 할당(자동, 안전).
 - 다운캐스팅: 상위 클래스 참조를 하위 클래스 타입으로 변환(명시적 캐스팅 필요, 호환되지 않으면 예외 발생).
 
-***
+
 
 ### 상속에서의 final 키워드
 
