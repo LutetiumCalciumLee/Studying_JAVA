@@ -65,7 +65,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>KOR (한국어 버전)</summary>
 
 # 8장. 자바 파일 입출력(I/O)과 스트림
