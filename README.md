@@ -107,7 +107,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>KOR (한국어 버전)</summary>
 
 # 1장. 컴퓨터, 소프트웨어, 그리고 자바의 진화
