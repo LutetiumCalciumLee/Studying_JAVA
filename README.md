@@ -68,7 +68,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>KOR (한국어 버전)</summary>
 
 # 3장. 자바 반복문, 배열, 예외 처리
