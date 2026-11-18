@@ -89,7 +89,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>KOR (한국어 버전)</summary>
 
 # 4장. 모든 것은 객체다: 자바 OOP 개념
